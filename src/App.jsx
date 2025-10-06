@@ -1,9 +1,10 @@
 import './App.css'
 import NavBar from './Components/NavBar'
 import Form from './Components/Form'
-import RatingCount from './Cmponents/RatingCount'
 import ListGroup from './Components/ListGroup'
 import { FeedbackProvider } from './context/FeedbackContext'
+import RatingCount from './components/RatingCount'
+
 
 
 const App=()=>{
