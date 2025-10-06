@@ -1,7 +1,7 @@
 import './App.css'
-import NavBar from './Components/NavBar'
-import Form from './Components/Form'
-import ListGroup from './Components/ListGroup'
+import NavBar from './components/NavBar'
+import Form from './components/Form'
+import ListGroup from './components/ListGroup'
 import { FeedbackProvider } from './context/FeedbackContext'
 import RatingCount from './components/RatingCount'
 

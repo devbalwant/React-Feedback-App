@@ -7,11 +7,7 @@ export const FeedbackProvider =({children})=>{
     
     const initialState ={
         feedbacks:[
-        // {
-        //     id: 1,
-        //     rating: 5,
-        //     review : "Very Nice Product"
-        // }
+       
     ],
         edit:{
             feedback:{},

@@ -1,11 +1,5 @@
 export const feedbackReducer=(state,action)=>{
 
-// if(action.type==="REMOVE_FEEDBACK"){
-//     return{
-//         ...state,
-//         feedbacks : state.feedbacks.filter(item=>item.id !== action.payload)
-//     }
-// }
 switch (action.type) {
     case "REMOVE_FEEDBACK":
         return{
