@@ -1,9 +1,9 @@
 import "./App.css";
-import ListGroup from "./components/ListGroup";
 import Form from "./components/Form";
 import { FeedbackProvider } from "./context/FeedbackContext";
 import RatingCount from "./components/RatingCount";
 import NavBar from "./Components/NavBar";
+import ListGroup from "./components/ListGroup";
 
 const App = () => {
   return (
@@ -15,7 +15,7 @@ const App = () => {
         </h1>
         <Form/>
         <RatingCount />
-        <ListGroup />
+        <ListGroup
       </div>
     </FeedbackProvider>
   );
