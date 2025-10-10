@@ -15,7 +15,7 @@ const App = () => {
         </h1>
         <Form/>
         <RatingCount />
-        <ListGroup
+        <ListGroup/>
       </div>
     </FeedbackProvider>
   );
